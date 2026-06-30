@@ -1,0 +1,478 @@
+value,count
+King,910466
+Snohomish,209728
+Pierce,143235
+Clark,103821
+Kitsap,60541
+Thurston,58533
+Spokane,46481
+Whatcom,43804
+Benton,23191
+Skagit,19759
+Island,19054
+Clallam,10824
+Yakima,10787
+Chelan,10234
+Jefferson,9922
+Cowlitz,9022
+San Juan,8997
+Mason,8577
+Lewis,7585
+Franklin,6660
+Grays Harbor,6410
+Grant,5968
+Kittitas,5765
+Walla Walla,4532
+Douglas,3774
+Whitman,3151
+Klickitat,2886
+Okanogan,2383
+Stevens,2220
+Pacific,2069
+Skamania,1763
+Asotin,722
+Adams,650
+Pend Oreille,587
+Lincoln,520
+Wahkiakum,512
+San Diego,332
+Ferry,317
+Multnomah,278
+Santa Clara,231
+Fairfax,206
+Orange,199
+Los Angeles,190
+Columbia,177
+Maricopa,167
+El Paso,127
+Washington,126
+Montgomery,112
+Clackamas,104
+Riverside,100
+Anne Arundel,85
+Bexar,80
+Alameda,78
+Tarrant,70
+Virginia Beach,69
+Lake,67
+Contra Costa,60
+Travis,60
+Ventura,60
+Collin,57
+District of Columbia,56
+Saginaw,53
+San Mateo,49
+New London,48
+Alexandria,48
+Prince William,47
+DuPage,45
+Middlesex,44
+Duval,44
+Garfield,44
+Honolulu,42
+Monterey,42
+Cumberland,42
+Norfolk,41
+Kootenai,41
+San Francisco,41
+Cook,40
+Harris,38
+Arlington,38
+Kings,37
+Suffolk,36
+New York,35
+San Bernardino,35
+Salt Lake,33
+Prince George's,33
+Deschutes,33
+Marion,32
+Hillsborough,32
+Ada,32
+Sacramento,31
+Chesapeake,30
+Dallas,29
+Leavenworth,29
+Pulaski,28
+Macomb,28
+Anchorage,28
+Fulton,27
+Williamson,27
+Nassau,27
+Allegheny,27
+Washoe,27
+Wake,26
+DeKalb,26
+Palm Beach,26
+Juneau,26
+Shelby,26
+Essex,25
+Hamilton,24
+Frederick,24
+Harnett,24
+Pima,24
+Solano,24
+Charles,23
+St. Mary's,23
+Lane,23
+Broward,23
+Kern,23
+Sonoma,22
+Marin,22
+St. Louis,22
+Madison,22
+Arapahoe,22
+McLean,22
+San Luis Obispo,20
+Okaloosa,20
+St. Clair,20
+Burlington,20
+Loudoun,20
+Nueces,19
+Harford,18
+Howard,18
+Goochland,18
+Saratoga,17
+Muscogee,17
+Polk,17
+Hudson,17
+Bell,17
+Maui,17
+Albemarle,17
+Calvert,16
+Flathead,16
+Weld,16
+Pinal,16
+Stafford,16
+Monroe,16
+Hennepin,15
+Bergen,15
+Rockingham,15
+Moore,15
+Charleston,15
+Denver,15
+Placer,15
+Gwinnett,14
+Sarasota,14
+Miami-Dade,14
+Newport,14
+Boulder,14
+Richmond,14
+Lee,14
+Kent,13
+Dakota,13
+Yolo,13
+Utah,13
+Wayne,13
+Jackson,13
+Oakland,13
+Camden,12
+Kauai,12
+Portsmouth,12
+Washtenaw,12
+Onslow,12
+Clay,12
+Hawaii,12
+San Joaquin,12
+Cuyahoga,11
+Davidson,11
+Santa Cruz,11
+Umatilla,11
+Laramie,11
+Baltimore,11
+Caddo,11
+Berkeley,11
+Sedgwick,11
+Bernalillo,11
+Sumter,11
+Carroll,11
+Denton,10
+Mecklenburg,10
+Philadelphia,10
+Houston,10
+Mercer,10
+New Haven,10
+Sarpy,10
+Prince George,10
+York,10
+Yuba,10
+Pinellas,10
+Autauga,10
+Morris,9
+Fort Bend,9
+Beaufort,9
+Escambia,9
+Larimer,9
+Chatham,9
+Hoke,9
+Sussex,8
+James City,8
+Fresno,8
+Missoula,8
+Brevard,8
+Oldham,8
+Allen,8
+Manassas,8
+Forsyth,8
+Riley,8
+El Dorado,8
+Hardin,7
+Twin Falls,7
+Barnstable,7
+Somerset,7
+Fairfield,7
+Greene,7
+Hartford,7
+Latah,7
+Collier,7
+Kane,7
+Coryell,7
+Bucks,7
+Plaquemines,7
+Dale,7
+Galveston,7
+Milwaukee,6
+Chesterfield,6
+Wichita,6
+Mohave,6
+Spartanburg,6
+St. Lucie,6
+Harrison,6
+Ramsey,6
+Medina,6
+Cameron,6
+Platte,6
+Dorchester,6
+St. Johns,6
+Queens,6
+Richland,6
+Providence,6
+Lexington,6
+Linn,6
+Meade,6
+Anoka,5
+Henrico,5
+Guadalupe,5
+Clatsop,5
+Johnson,5
+Manatee,5
+Brown,5
+Nantucket,5
+Currituck,5
+Klamath,5
+St. Charles,5
+Randolph,5
+Comal,5
+Cobb,4
+Canyon,4
+Wilson,4
+Stanislaus,4
+Cleveland,4
+Hays,4
+Miller,4
+Yavapai,4
+Tooele,4
+St. Lawrence,4
+Davis,4
+Wasco,4
+Monona,4
+Penobscot,4
+Botetourt,4
+Texas,4
+Yuma,4
+Oktibbeha,4
+Otero,4
+Horry,4
+Rockdale,4
+Boone,4
+Sauk,4
+Ulster,4
+Alachua,4
+Eagle,4
+La Plata,4
+Fairbanks North Star,4
+Tom Green,4
+Geary,4
+Rock Island,4
+Williamsburg,4
+Beauregard,4
+Yamhill,4
+Atlantic,4
+Rogers,4
+Hidalgo,4
+Northampton,4
+Greenville,4
+DoÃ±a Ana,4
+Hampton,3
+Charlottesville,3
+Cochise,3
+Val Verde,3
+Bartow,3
+Bannock,3
+Churchill,3
+Powhatan,3
+RÃÂ­o Grande,3
+Guilford,3
+Tipton,3
+Bay,3
+Williams,3
+Butte,3
+Tulsa,3
+Sitka,3
+Cascade,3
+Vigo,3
+Muskogee,3
+New Castle,3
+Hancock,3
+Tulare,3
+Glacier,3
+Nye,3
+Santa Barbara,3
+Santa Rosa,3
+Worcester,3
+Oklahoma,3
+Josephine,3
+Mobile,3
+Volusia,3
+Osceola,3
+Ocean,3
+Shasta,3
+Ray,3
+Newport News,3
+Pennington,3
+Vernon,3
+Isle of Wight,3
+Owyhee,3
+Gallatin,3
+Guam,3
+Spotsylvania,3
+Fredericksburg,3
+Pueblo,3
+Long,3
+Stark,3
+New Hanover,3
+Dane,3
+Calhoun,2
+Shiawassee,2
+Fayette,2
+Hernando,2
+Onondaga,2
+Monmouth,2
+Centre,2
+Matanuska-Susitna,2
+Liberty,2
+Cherokee,2
+Sangamon,2
+Bradley,2
+Carson City,2
+St. Landry,2
+Blaine,2
+Valencia,2
+McLennan,2
+Sevier,2
+Pender,2
+Ottawa,2
+Wasatch,2
+Niagara,2
+Skagway,2
+Champaign,2
+Weber,2
+Lumpkin,2
+Schuylkill,2
+Comanche,2
+Summit,2
+Pitt,2
+Jones,2
+Atascosa,2
+Clinton,2
+Louisa,2
+Tippecanoe,2
+Bossier,2
+Lewis and Clark,2
+Pettis,2
+Beaver,2
+Humboldt,2
+Buncombe,2
+Webb,2
+St. Croix,2
+Will,2
+Talladega,2
+Canadian,2
+Santa Fe,2
+Danville,2
+Wise,2
+Bonner,2
+Hampden,2
+Yellowstone,2
+Kenai Peninsula,2
+Chaves,2
+Putnam,2
+Bryan,1
+Scott,1
+Hopewell,1
+Parker,1
+Los Alamos,1
+Ellis,1
+Westchester,1
+Wyandotte,1
+Mesa,1
+Rock,1
+Ketchikan Gateway,1
+Hanover,1
+Teton,1
+Esmeralda,1
+Union,1
+Brazos,1
+Erie,1
+Olmsted,1
+Lassen,1
+Albany,1
+La Crosse,1
+Bonneville,1
+Hall,1
+Coos,1
+Ravalli,1
+Steele,1
+Rockwall,1
+Ogle,1
+Baldwin,1
+Hood River,1
+Kalamazoo,1
+Cass,1
+Hendricks,1
+Dodge,1
+Tillamook,1
+Lafayette,1
+Ingham,1
+Pasco,1
+Shoshone,1
+Cassia,1
+Merced,1
+Baker,1
+Waller,1
+Wabasha,1
+Knox,1
+Elbert,1
+Morrow,1
+San Benito,1
+Wood,1
+Christian,1
+Inyo,1
+Napa,1
+Chautauqua,1
+Orleans,1
+Berkshire,1
+Hampshire,1
+Elko,1
+Iron,1
+Cache,1
+Genesee,1
+Russell,1
+Carteret,1
+Pottawatomie,1
+St. Tammany,1
+Cape May,1
+Mendocino,1
+Tompkins,1
+Bristol,1
+Falls Church,1
+Dickson,1

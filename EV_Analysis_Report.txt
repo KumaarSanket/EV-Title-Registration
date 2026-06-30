@@ -1,0 +1,1268 @@
+════════════════════════════════════════════════════════════════════════════════
+   ELECTRIC VEHICLE DATA  ·  COMPREHENSIVE ANALYSIS REPORT
+   Generated : 2026-06-27  18:42:58
+════════════════════════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════════════════════════
+  1 ·  FILE INFORMATION
+════════════════════════════════════════════════════════════════════════════════
+  File Name  : Electric_Vehicle_Title_and_Registration_Activity_20260623.csv
+  Full Path  : C:\Users\kumar_\Desktop\KS\Analytics\PROJECTS\Electric Vehicle Population\Electric_Vehicle_Title_and_Registration_Activity_20260623.csv
+  File Size  : 930.98 MB  (976,200,125 bytes)
+  Encoding   : ascii  (confidence 100%)
+
+  ⏳  Loading file …  (may take 30–120 s for a 1 GB file)
+  ⚠  ascii failed ('ascii' codec can't decode byte 0xc3 in position 217932: ordinal not in range(128))  →  retrying with latin-1
+  Load Time  : 29.2 s
+  Rows       : 1,772,617
+  Columns    : 33
+  RAM Usage  : 2962.03 MB
+
+════════════════════════════════════════════════════════════════════════════════
+  2 ·  DATASET OVERVIEW
+════════════════════════════════════════════════════════════════════════════════
+  Shape                : 1,772,617 rows  ×  33 columns
+  Duplicate Rows       : 62  (0.00 %)
+  Total Cells          : 58,496,361
+  Total Missing Cells  : 1,483,453  (2.54 %)
+
+    #  Column Name                                              Dtype            Missing
+  ----------------------------------------------------------------------------
+    1. Clean Alternative Fuel Vehicle Type                      object             0 (0.0%)
+    2. VIN (1-10)                                               object             0 (0.0%)
+    3. DOL Vehicle ID                                           int64              0 (0.0%)
+    4. Model Year                                               int64              0 (0.0%)
+    5. Make                                                     object             0 (0.0%)
+    6. Model                                                    object             0 (0.0%)
+    7. Primary Use                                              object             0 (0.0%)
+    8. Electric Range                                           float64           23 (0.0%)
+    9. Odometer Reading                                         object             0 (0.0%)
+   10. Odometer Reading Description                             object             0 (0.0%)
+   11. New or Used Vehicle                                      object             0 (0.0%)
+   12. Sale Price                                               object             0 (0.0%)
+   13. Sale Date                                                object        1,293,675 (73.0%)
+   14. Transaction Type                                         object             0 (0.0%)
+   15. Transaction Date                                         object             0 (0.0%)
+   16. Year                                                     int64              0 (0.0%)
+   17. County                                                   object           139 (0.0%)
+   18. City                                                     object             0 (0.0%)
+   19. State                                                    object             1 (0.0%)
+   20. Postal Code                                              float64          139 (0.0%)
+   21. 2019 HB 2042: Clean Alternative Fuel Vehicle (CAFV) Eligibility  object             0 (0.0%)
+   22. Meets 2019 HB 2042 Electric Range Requirement            bool               0 (0.0%)
+   23. Meets 2019 HB 2042 Sale Date Requirement                 bool               0 (0.0%)
+   24. Meets 2019 HB 2042 Sale Price/Value Requirement          bool               0 (0.0%)
+   25. 2019 HB 2042: Battery Range Requirement                  object             0 (0.0%)
+   26. 2019 HB 2042: Purchase Date Requirement                  object             0 (0.0%)
+   27. 2019 HB 2042: Sale Price/Value Requirement               object             0 (0.0%)
+   28. Electric Vehicle Fee Paid                                object             0 (0.0%)
+   29. Transportation Electrification Fee Paid                  object        91,031 (5.1%)
+   30. Hybrid Vehicle Electrification Fee Paid                  object        91,031 (5.1%)
+   31. 2020 GEOID                                               float64          139 (0.0%)
+   32. Legislative District                                     float64        7,275 (0.4%)
+   33. Electric Utility                                         object             0 (0.0%)
+
+════════════════════════════════════════════════════════════════════════════════
+  3 ·  COLUMN-BY-COLUMN ANALYSIS
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Clean Alternative Fuel Vehicle Type
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 3
+  │  Most Frequent      : 'Battery Electric Vehicle (BEV)'  (1,364,768×  77.0 %)
+  │  Length min/max/avg : 24 / 38 / 31.8
+  │  Sample Values      : ['Battery Electric Vehicle (BEV)', 'Battery Electric Vehicle (BEV)', 'Battery Electric Vehicle (BEV)', 'Plug-in Hybrid Electric Vehicle (PHEV)', 'Battery Electric Vehicle (BEV)']
+  │  All Unique Values  (3 total):
+  │      Battery Electric Vehicle (BEV)                  1,364,768  (77.0 %)
+  │      Plug-in Hybrid Electric Vehicle (PHEV)           407,804  (23.0 %)
+  │      Hydrogen Powered Vehicle                              45  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : VIN (1-10)
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 18,577
+  │  Most Frequent      : '7SAYGDEE7P'  (5,831×  0.3 %)
+  │  Length min/max/avg : 10 / 10 / 10.0
+  │  Sample Values      : ['5YJSA1E63M', 'YSMED3KA8P', '7SAYGDEE6N', 'YV4H60LE7R', 'JN1AZ0CP8C']
+  │  Top 20 of 18,577 unique values:
+  │      7SAYGDEE7P                                         5,831  (0.3 %)
+  │      7SAYGDEE6P                                         5,800  (0.3 %)
+  │      7SAYGDEE5P                                         5,655  (0.3 %)
+  │      7SAYGDEEXP                                         5,653  (0.3 %)
+  │      7SAYGDEE8P                                         5,617  (0.3 %)
+  │      7SAYGDEE2P                                         5,582  (0.3 %)
+  │      7SAYGDEE0P                                         5,513  (0.3 %)
+  │      7SAYGDEE9P                                         5,493  (0.3 %)
+  │      7SAYGDEE3P                                         5,405  (0.3 %)
+  │      7SAYGDEE1P                                         5,328  (0.3 %)
+  │      7SAYGDEE4P                                         5,315  (0.3 %)
+  │      1N4AZ0CP6D                                         3,763  (0.2 %)
+  │      1N4AZ0CPXD                                         3,631  (0.2 %)
+  │      1N4AZ0CP4D                                         3,626  (0.2 %)
+  │      5YJYGDEE0M                                         3,554  (0.2 %)
+  │      5YJYGDEE9M                                         3,547  (0.2 %)
+  │      1N4AZ0CP1D                                         3,526  (0.2 %)
+  │      1N4AZ0CP2D                                         3,494  (0.2 %)
+  │      1N4AZ0CP9D                                         3,462  (0.2 %)
+  │      1N4AZ0CP3D                                         3,460  (0.2 %)
+  │  → Full list (18,577 rows) saved → unique_values\VIN_1_10__unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : DOL Vehicle ID
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : int64
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 377,329
+  │  Most Frequent      : '245759111'  (27×  0.0 %)
+  │  (Numeric column — full stats in Section 4)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Model Year
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : int64
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 28
+  │  Most Frequent      : '2023'  (296,234×  16.7 %)
+  │  All Unique Values  (28 total):
+  │      2023                                             296,234  (16.7 %)
+  │      2024                                             189,737  (10.7 %)
+  │      2022                                             180,588  (10.2 %)
+  │      2018                                             149,120  (8.4 %)
+  │      2021                                             147,816  (8.3 %)
+  │      2025                                             104,165  (5.9 %)
+  │      2019                                             102,204  (5.8 %)
+  │      2017                                             101,601  (5.7 %)
+  │      2020                                             100,899  (5.7 %)
+  │      2013                                              84,873  (4.8 %)
+  │      2016                                              74,700  (4.2 %)
+  │      2015                                              73,956  (4.2 %)
+  │      2014                                              57,877  (3.3 %)
+  │      2026                                              56,317  (3.2 %)
+  │      2012                                              33,361  (1.9 %)
+  │      2011                                              17,491  (1.0 %)
+  │      2010                                                 632  (0.0 %)
+  │      2008                                                 444  (0.0 %)
+  │      2027                                                 254  (0.0 %)
+  │      2000                                                 152  (0.0 %)
+  │      1999                                                  66  (0.0 %)
+  │      2002                                                  48  (0.0 %)
+  │      1998                                                  31  (0.0 %)
+  │      1997                                                  22  (0.0 %)
+  │      2001                                                  14  (0.0 %)
+  │      2003                                                   7  (0.0 %)
+  │      1993                                                   5  (0.0 %)
+  │      1994                                                   3  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Make
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 50
+  │  Most Frequent      : 'TESLA'  (706,750×  39.9 %)
+  │  Length min/max/avg : 3 / 22 / 5.6
+  │  Sample Values      : ['TESLA', 'POLESTAR', 'TESLA', 'VOLVO', 'NISSAN']
+  │  All Unique Values  (50 total):
+  │      TESLA                                            706,750  (39.9 %)
+  │      NISSAN                                           203,381  (11.5 %)
+  │      CHEVROLET                                        151,952  (8.6 %)
+  │      FORD                                             100,603  (5.7 %)
+  │      BMW                                               77,910  (4.4 %)
+  │      KIA                                               75,589  (4.3 %)
+  │      TOYOTA                                            73,325  (4.1 %)
+  │      HYUNDAI                                           45,203  (2.6 %)
+  │      VOLKSWAGEN                                        40,624  (2.3 %)
+  │      VOLVO                                             39,281  (2.2 %)
+  │      RIVIAN                                            35,995  (2.0 %)
+  │      AUDI                                              34,492  (1.9 %)
+  │      JEEP                                              32,960  (1.9 %)
+  │      CHRYSLER                                          25,039  (1.4 %)
+  │      MERCEDES-BENZ                                     15,878  (0.9 %)
+  │      HONDA                                             14,766  (0.8 %)
+  │      PORSCHE                                           11,809  (0.7 %)
+  │      SUBARU                                            11,257  (0.6 %)
+  │      FIAT                                               9,451  (0.5 %)
+  │      CADILLAC                                           9,308  (0.5 %)
+  │      MITSUBISHI                                         8,087  (0.5 %)
+  │      POLESTAR                                           7,769  (0.4 %)
+  │      MINI                                               7,439  (0.4 %)
+  │      LEXUS                                              6,339  (0.4 %)
+  │      MAZDA                                              5,729  (0.3 %)
+  │      SMART                                              3,514  (0.2 %)
+  │      DODGE                                              3,012  (0.2 %)
+  │      LUCID                                              2,742  (0.2 %)
+  │      LINCOLN                                            2,298  (0.1 %)
+  │      JAGUAR                                             2,060  (0.1 %)
+  │      GMC                                                1,971  (0.1 %)
+  │      GENESIS                                            1,932  (0.1 %)
+  │      ACURA                                              1,128  (0.1 %)
+  │      FISKER                                             1,008  (0.1 %)
+  │      LAND ROVER                                           954  (0.1 %)
+  │      ALFA ROMEO                                           413  (0.0 %)
+  │      BRIGHTDROP                                           136  (0.0 %)
+  │      AZURE DYNAMICS                                       104  (0.0 %)
+  │      LAMBORGHINI                                           88  (0.0 %)
+  │      TH!NK                                                 75  (0.0 %)
+  │      WHEEGO ELECTRIC CARS                                  74  (0.0 %)
+  │      RAM                                                   69  (0.0 %)
+  │      BENTLEY                                               42  (0.0 %)
+  │      MULLEN AUTOMOTIVE INC.                                21  (0.0 %)
+  │      ROLLS-ROYCE                                           20  (0.0 %)
+  │      VINFAST                                                7  (0.0 %)
+  │      BUBBLE BUDDY                                           6  (0.0 %)
+  │      PLYMOUTH                                               3  (0.0 %)
+  │      MASERATI                                               2  (0.0 %)
+  │      ASTON MARTIN                                           2  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Model
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 202
+  │  Most Frequent      : 'Model Y'  (289,015×  16.3 %)
+  │  Length min/max/avg : 2 / 24 / 6.4
+  │  Sample Values      : ['Model S', 'PS2', 'Model Y', 'XC90', 'Leaf']
+  │  Top 20 of 202 unique values:
+  │      Model Y                                          289,015  (16.3 %)
+  │      Model 3                                          264,201  (14.9 %)
+  │      Leaf                                             193,845  (10.9 %)
+  │      Model S                                           92,866  (5.2 %)
+  │      Volt                                              68,159  (3.8 %)
+  │      Model X                                           53,364  (3.0 %)
+  │      Bolt EV                                           53,348  (3.0 %)
+  │      Prius Prime (PHEV)                                29,084  (1.6 %)
+  │      Mustang Mach-E                                    28,695  (1.6 %)
+  │      ID.4                                              28,591  (1.6 %)
+  │      Niro                                              27,626  (1.6 %)
+  │      i3                                                26,022  (1.5 %)
+  │      Pacifica                                          25,039  (1.4 %)
+  │      Ioniq 5                                           24,777  (1.4 %)
+  │      Wrangler                                          24,735  (1.4 %)
+  │      Fusion                                            24,648  (1.4 %)
+  │      RAV4 Prime (PHEV)                                 21,652  (1.2 %)
+  │      C-Max                                             21,512  (1.2 %)
+  │      X5                                                20,952  (1.2 %)
+  │      R1S                                               19,393  (1.1 %)
+  │  → Full list (202 rows) saved → unique_values\Model_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Primary Use
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 16
+  │  Most Frequent      : 'Passenger'  (1,719,938×  97.0 %)
+  │  Length min/max/avg : 3 / 34 / 9.1
+  │  Sample Values      : ['Passenger', 'Passenger', 'Passenger', 'Passenger', 'Passenger']
+  │  All Unique Values  (16 total):
+  │      Passenger                                       1,719,938  (97.0 %)
+  │      Truck                                             30,360  (1.7 %)
+  │      Commercial                                        13,048  (0.7 %)
+  │      Exempt (State/County/Local/Tribal)                 8,390  (0.5 %)
+  │      For Hire                                             491  (0.0 %)
+  │      Medium-Speed Electric Vehicle                        184  (0.0 %)
+  │      Neighborhood Electric Vehicle                         66  (0.0 %)
+  │      Farm Exempt                                           52  (0.0 %)
+  │      Cab                                                   44  (0.0 %)
+  │      Private School                                        12  (0.0 %)
+  │      Medium-Speed Electric Truck                           12  (0.0 %)
+  │      Government (Federal)                                   8  (0.0 %)
+  │      Farm Use                                               7  (0.0 %)
+  │      Taxi Cab                                               3  (0.0 %)
+  │      Tow Truck                                              1  (0.0 %)
+  │      Off Road Vehicle                                       1  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Electric Range
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : float64
+  │  Missing Values     : 23  (0.00 %)
+  │  Non-Null Values    : 1,772,594
+  │  Unique Values      : 119
+  │  Most Frequent      : '0.0'  (802,631×  45.3 %)
+  │  (Numeric column — full stats in Section 4)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Odometer Reading
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 70,813
+  │  Most Frequent      : '0'  (1,277,600×  72.1 %)
+  │  Length min/max/avg : 1 / 7 / 1.6
+  │  Sample Values      : ['0', '0', '0', '5', '0']
+  │  Top 20 of 70,813 unique values:
+  │      0                                               1,277,600  (72.1 %)
+  │      15                                               106,553  (6.0 %)
+  │      50                                                26,059  (1.5 %)
+  │      10                                                14,567  (0.8 %)
+  │      5                                                 12,826  (0.7 %)
+  │      100                                               10,591  (0.6 %)
+  │      12                                                 6,655  (0.4 %)
+  │      11                                                 6,291  (0.4 %)
+  │      8                                                  5,538  (0.3 %)
+  │      6                                                  5,432  (0.3 %)
+  │      7                                                  5,222  (0.3 %)
+  │      9                                                  5,154  (0.3 %)
+  │      13                                                 4,471  (0.3 %)
+  │      14                                                 4,389  (0.2 %)
+  │      16                                                 3,798  (0.2 %)
+  │      25                                                 3,605  (0.2 %)
+  │      20                                                 3,499  (0.2 %)
+  │      17                                                 3,487  (0.2 %)
+  │      18                                                 3,294  (0.2 %)
+  │      19                                                 2,831  (0.2 %)
+  │  → Full list (70,813 rows) saved → unique_values\Odometer_Reading_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Odometer Reading Description
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 7
+  │  Most Frequent      : 'Odometer reading is not collected at time of renew'  (1,253,091×  70.7 %)
+  │  Length min/max/avg : 14 / 55 / 41.0
+  │  Sample Values      : ['Odometer reading is not collected at time of renewal', 'Odometer reading is not collected at time of renewal', 'Odometer reading is not collected at time of renewal', 'Actual Mileage', 'No Odometer Code on File']
+  │  All Unique Values  (7 total):
+  │      Odometer reading is not collected at time of renewal  1,253,091  (70.7 %)
+  │      Actual Mileage                                   494,412  (27.9 %)
+  │      No Odometer Code on File                          24,246  (1.4 %)
+  │      Not actual mileage                                   542  (0.0 %)
+  │      Exempt - Over 10 years old, non-powered, or by use type       251  (0.0 %)
+  │      Exceeds mechanical limits                             54  (0.0 %)
+  │      Exempt - Gross / Towing Rating is greater than 16,000        21  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : New or Used Vehicle
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 2
+  │  Most Frequent      : 'Used'  (1,477,138×  83.3 %)
+  │  Length min/max/avg : 3 / 4 / 3.8
+  │  Sample Values      : ['Used', 'Used', 'Used', 'New', 'Used']
+  │  All Unique Values  (2 total):
+  │      Used                                            1,477,138  (83.3 %)
+  │      New                                              295,479  (16.7 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Sale Price
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 60,556
+  │  Most Frequent      : '$0'  (1,368,489×  77.2 %)
+  │  Length min/max/avg : 2 / 11 / 3.1
+  │  Sample Values      : ['$0', '$0', '$0', '$74,100', '$0']
+  │  Top 20 of 60,556 unique values:
+  │      $0                                              1,368,489  (77.2 %)
+  │      $51,630                                            4,074  (0.2 %)
+  │      $50,630                                            3,209  (0.2 %)
+  │      $52,630                                            2,991  (0.2 %)
+  │      $49,630                                            2,037  (0.1 %)
+  │      $52,130                                            1,897  (0.1 %)
+  │      $50,130                                            1,662  (0.1 %)
+  │      $51,130                                            1,640  (0.1 %)
+  │      $53,630                                            1,555  (0.1 %)
+  │      $35,000                                            1,378  (0.1 %)
+  │      $54,630                                            1,346  (0.1 %)
+  │      $48,630                                            1,313  (0.1 %)
+  │      $49,130                                            1,288  (0.1 %)
+  │      $53,130                                            1,243  (0.1 %)
+  │      $44,130                                            1,188  (0.1 %)
+  │      $46,630                                            1,185  (0.1 %)
+  │      $56,630                                            1,130  (0.1 %)
+  │      $55,630                                            1,129  (0.1 %)
+  │      $24,999                                            1,083  (0.1 %)
+  │      $25,000                                              945  (0.1 %)
+  │  → Full list (60,556 rows) saved → unique_values\Sale_Price_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Sale Date
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 1,293,675  (72.98 %)
+  │  Non-Null Values    : 478,942
+  │  Unique Values      : 5,529
+  │  Most Frequent      : 'September 30, 2025'  (771×  0.2 %)
+  │  Length min/max/avg : 12 / 18 / 15.2
+  │  Sample Values      : ['March 29, 2026', 'August 13, 2021', 'August 14, 2020', 'December 30, 2023', 'May 28, 2026']
+  │  Top 20 of 5,529 unique values:
+  │      September 30, 2025                                   771  (0.2 %)
+  │      March 31, 2025                                       597  (0.1 %)
+  │      December 27, 2024                                    592  (0.1 %)
+  │      March 29, 2025                                       583  (0.1 %)
+  │      December 31, 2024                                    573  (0.1 %)
+  │      June 30, 2025                                        568  (0.1 %)
+  │      September 29, 2025                                   541  (0.1 %)
+  │      September 30, 2023                                   529  (0.1 %)
+  │      September 27, 2025                                   523  (0.1 %)
+  │      July 31, 2025                                        521  (0.1 %)
+  │      March 30, 2024                                       514  (0.1 %)
+  │      June 30, 2023                                        507  (0.1 %)
+  │      March 31, 2026                                       507  (0.1 %)
+  │      December 29, 2023                                    506  (0.1 %)
+  │      September 30, 2024                                   504  (0.1 %)
+  │      December 30, 2023                                    490  (0.1 %)
+  │      August 31, 2024                                      473  (0.1 %)
+  │      September 20, 2025                                   473  (0.1 %)
+  │      September 28, 2024                                   463  (0.1 %)
+  │      September 13, 2025                                   453  (0.1 %)
+  │  → Full list (5,529 rows) saved → unique_values\Sale_Date_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Transaction Type
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 5
+  │  Most Frequent      : 'Registration Renewal'  (854,334×  48.2 %)
+  │  Length min/max/avg : 14 / 32 / 19.2
+  │  Sample Values      : ['Registration Renewal', 'Registration Renewal', 'Registration Renewal', 'Original Title', 'Registration Renewal']
+  │  All Unique Values  (5 total):
+  │      Registration Renewal                             854,334  (48.2 %)
+  │      Original Registration                            375,417  (21.2 %)
+  │      Original Title                                   367,346  (20.7 %)
+  │      Transfer Title                                    89,922  (5.1 %)
+  │      Registration at time of Transfer                  85,598  (4.8 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Transaction Date
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 4,715
+  │  Most Frequent      : 'July 31, 2024'  (4,480×  0.3 %)
+  │  Length min/max/avg : 12 / 18 / 15.1
+  │  Sample Values      : ['July 28, 2025', 'December 08, 2025', 'November 22, 2023', 'May 14, 2024', 'November 04, 2013']
+  │  Top 20 of 4,715 unique values:
+  │      July 31, 2024                                      4,480  (0.3 %)
+  │      July 08, 2025                                      3,210  (0.2 %)
+  │      April 16, 2026                                     2,934  (0.2 %)
+  │      May 01, 2024                                       2,842  (0.2 %)
+  │      September 02, 2025                                 2,719  (0.2 %)
+  │      February 09, 2026                                  2,534  (0.1 %)
+  │      September 12, 2024                                 2,530  (0.1 %)
+  │      May 30, 2024                                       2,506  (0.1 %)
+  │      January 05, 2026                                   2,427  (0.1 %)
+  │      May 26, 2026                                       2,423  (0.1 %)
+  │      October 06, 2025                                   2,423  (0.1 %)
+  │      July 07, 2025                                      2,406  (0.1 %)
+  │      March 09, 2026                                     2,299  (0.1 %)
+  │      September 03, 2024                                 2,285  (0.1 %)
+  │      December 01, 2025                                  2,241  (0.1 %)
+  │      February 17, 2026                                  2,228  (0.1 %)
+  │      November 12, 2024                                  2,216  (0.1 %)
+  │      July 09, 2024                                      2,178  (0.1 %)
+  │      October 07, 2025                                   2,175  (0.1 %)
+  │      May 12, 2026                                       2,169  (0.1 %)
+  │  → Full list (4,715 rows) saved → unique_values\Transaction_Date_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Year
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : int64
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 17
+  │  Most Frequent      : '2025'  (381,018×  21.5 %)
+  │  All Unique Values  (17 total):
+  │      2025                                             381,018  (21.5 %)
+  │      2024                                             326,823  (18.4 %)
+  │      2023                                             249,199  (14.1 %)
+  │      2022                                             165,541  (9.3 %)
+  │      2026                                             163,135  (9.2 %)
+  │      2021                                             122,828  (6.9 %)
+  │      2020                                              88,654  (5.0 %)
+  │      2019                                              77,359  (4.4 %)
+  │      2018                                              62,091  (3.5 %)
+  │      2017                                              43,186  (2.4 %)
+  │      2016                                              31,286  (1.8 %)
+  │      2015                                              23,283  (1.3 %)
+  │      2014                                              17,821  (1.0 %)
+  │      2013                                              12,842  (0.7 %)
+  │      2012                                               4,953  (0.3 %)
+  │      2011                                               2,488  (0.1 %)
+  │      2010                                                 110  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : County
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 139  (0.01 %)
+  │  Non-Null Values    : 1,772,478
+  │  Unique Values      : 477
+  │  Most Frequent      : 'King'  (910,466×  51.4 %)
+  │  Length min/max/avg : 3 / 20 / 5.5
+  │  Sample Values      : ['Snohomish', 'Island', 'King', 'King', 'Thurston']
+  │  Top 20 of 477 unique values:
+  │      King                                             910,466  (51.4 %)
+  │      Snohomish                                        209,728  (11.8 %)
+  │      Pierce                                           143,235  (8.1 %)
+  │      Clark                                            103,821  (5.9 %)
+  │      Kitsap                                            60,541  (3.4 %)
+  │      Thurston                                          58,533  (3.3 %)
+  │      Spokane                                           46,481  (2.6 %)
+  │      Whatcom                                           43,804  (2.5 %)
+  │      Benton                                            23,191  (1.3 %)
+  │      Skagit                                            19,759  (1.1 %)
+  │      Island                                            19,054  (1.1 %)
+  │      Clallam                                           10,824  (0.6 %)
+  │      Yakima                                            10,787  (0.6 %)
+  │      Chelan                                            10,234  (0.6 %)
+  │      Jefferson                                          9,922  (0.6 %)
+  │      Cowlitz                                            9,022  (0.5 %)
+  │      San Juan                                           8,997  (0.5 %)
+  │      Mason                                              8,577  (0.5 %)
+  │      Lewis                                              7,585  (0.4 %)
+  │      Franklin                                           6,660  (0.4 %)
+  │  → Full list (477 rows) saved → unique_values\County_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : City
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 1,715
+  │  Most Frequent      : 'SEATTLE'  (293,792×  16.6 %)
+  │  Length min/max/avg : 3 / 24 / 8.2
+  │  Sample Values      : ['ARLINGTON', 'SPOKANE', 'MILL CREEK', 'CLE ELUM', 'FIRCREST']
+  │  Top 20 of 1,715 unique values:
+  │      SEATTLE                                          293,792  (16.6 %)
+  │      BELLEVUE                                          92,337  (5.2 %)
+  │      REDMOND                                           66,199  (3.7 %)
+  │      VANCOUVER                                         63,378  (3.6 %)
+  │      BOTHELL                                           55,751  (3.1 %)
+  │      KIRKLAND                                          52,999  (3.0 %)
+  │      SAMMAMISH                                         51,275  (2.9 %)
+  │      RENTON                                            47,527  (2.7 %)
+  │      TACOMA                                            39,018  (2.2 %)
+  │      OLYMPIA                                           38,008  (2.1 %)
+  │      BELLINGHAM                                        30,013  (1.7 %)
+  │      KENT                                              28,552  (1.6 %)
+  │      SPOKANE                                           27,589  (1.6 %)
+  │      ISSAQUAH                                          27,497  (1.6 %)
+  │      LYNNWOOD                                          27,166  (1.5 %)
+  │      EVERETT                                           27,002  (1.5 %)
+  │      WOODINVILLE                                       23,931  (1.4 %)
+  │      MERCER ISLAND                                     23,283  (1.3 %)
+  │      AUBURN                                            20,138  (1.1 %)
+  │      SNOHOMISH                                         20,123  (1.1 %)
+  │  → Full list (1,715 rows) saved → unique_values\City_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : State
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 1  (0.00 %)
+  │  Non-Null Values    : 1,772,616
+  │  Unique Values      : 58
+  │  Most Frequent      : 'WA'  (1,765,346×  99.6 %)
+  │  Length min/max/avg : 2 / 2 / 2.0
+  │  Sample Values      : ['WA', 'WA', 'WA', 'WA', 'WA']
+  │  Top 20 of 58 unique values:
+  │      WA                                              1,765,346  (99.6 %)
+  │      CA                                                 1,632  (0.1 %)
+  │      OR                                                   689  (0.0 %)
+  │      VA                                                   653  (0.0 %)
+  │      TX                                                   528  (0.0 %)
+  │      MD                                                   322  (0.0 %)
+  │      FL                                                   308  (0.0 %)
+  │      AZ                                                   228  (0.0 %)
+  │      CO                                                   217  (0.0 %)
+  │      IL                                                   216  (0.0 %)
+  │      NV                                                   190  (0.0 %)
+  │      NC                                                   169  (0.0 %)
+  │      NY                                                   151  (0.0 %)
+  │      GA                                                   143  (0.0 %)
+  │      MI                                                   129  (0.0 %)
+  │      NJ                                                   121  (0.0 %)
+  │      ID                                                   108  (0.0 %)
+  │      MA                                                   103  (0.0 %)
+  │      HI                                                    83  (0.0 %)
+  │      PA                                                    78  (0.0 %)
+  │  → Full list (58 rows) saved → unique_values\State_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Postal Code
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : float64
+  │  Missing Values     : 139  (0.01 %)
+  │  Non-Null Values    : 1,772,478
+  │  Unique Values      : 2,595
+  │  Most Frequent      : '98052.0'  (46,643×  2.6 %)
+  │  (Numeric column — full stats in Section 4)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : 2019 HB 2042: Clean Alternative Fuel Vehicle (CAFV) Eligibility
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 2
+  │  Most Frequent      : 'HB 2042 Eligibility Requirements not met'  (1,684,152×  95.0 %)
+  │  Length min/max/avg : 30 / 40 / 39.5
+  │  Sample Values      : ['HB 2042 Eligibility Requirements not met', 'HB 2042 Eligibility Requirements not met', 'HB 2042 Eligibility Requirements not met', 'HB 2042 Eligibility Requirements not met', 'HB 2042 Eligibility Requirements not met']
+  │  All Unique Values  (2 total):
+  │      HB 2042 Eligibility Requirements not met        1,684,152  (95.0 %)
+  │      Clean Alternative Fuel Vehicle                    88,465  (5.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Meets 2019 HB 2042 Electric Range Requirement
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : bool
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 2
+  │  Most Frequent      : 'True'  (1,573,722×  88.8 %)
+  │  All Unique Values  (2 total):
+  │      True                                            1,573,722  (88.8 %)
+  │      False                                            198,895  (11.2 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Meets 2019 HB 2042 Sale Date Requirement
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : bool
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 2
+  │  Most Frequent      : 'False'  (1,469,890×  82.9 %)
+  │  All Unique Values  (2 total):
+  │      False                                           1,469,890  (82.9 %)
+  │      True                                             302,727  (17.1 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Meets 2019 HB 2042 Sale Price/Value Requirement
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : bool
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 2
+  │  Most Frequent      : 'False'  (1,626,740×  91.8 %)
+  │  All Unique Values  (2 total):
+  │      False                                           1,626,740  (91.8 %)
+  │      True                                             145,877  (8.2 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : 2019 HB 2042: Battery Range Requirement
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 3
+  │  Most Frequent      : 'Battery range requirement is met'  (1,573,722×  88.8 %)
+  │  Length min/max/avg : 24 / 41 / 31.1
+  │  Sample Values      : ['Battery range requirement is met', 'Battery range requirement is met', 'Battery range requirement is met', 'Battery range requirement is met', 'Battery range requirement is met']
+  │  All Unique Values  (3 total):
+  │      Battery range requirement is met                1,573,722  (88.8 %)
+  │      Battery range is too low                         198,872  (11.2 %)
+  │      Battery range for this vehicle is unknown             23  (0.0 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : 2019 HB 2042: Purchase Date Requirement
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 4
+  │  Most Frequent      : 'This transaction type is not eligible for the tax '  (1,339,802×  75.6 %)
+  │  Length min/max/avg : 32 / 62 / 53.9
+  │  Sample Values      : ['This transaction type is not eligible for the tax exemption', 'This transaction type is not eligible for the tax exemption', 'This transaction type is not eligible for the tax exemption', 'Purchase date requirement is met', 'This transaction type is not eligible for the tax exemption']
+  │  All Unique Values  (4 total):
+  │      This transaction type is not eligible for the tax exemption  1,339,802  (75.6 %)
+  │      Purchase date requirement is met                 302,727  (17.1 %)
+  │      Vehicle purchase was before August 01, 2019       70,719  (4.0 %)
+  │      Vehicle purchase was after exemption end date of July 31, 2025    59,369  (3.3 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : 2019 HB 2042: Sale Price/Value Requirement
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 5
+  │  Most Frequent      : 'This transaction type is not eligible for the tax '  (1,339,802×  75.6 %)
+  │  Length min/max/avg : 26 / 59 / 51.8
+  │  Sample Values      : ['This transaction type is not eligible for the tax exemption', 'This transaction type is not eligible for the tax exemption', 'This transaction type is not eligible for the tax exemption', 'The sale price is too high', 'This transaction type is not eligible for the tax exemption']
+  │  All Unique Values  (5 total):
+  │      This transaction type is not eligible for the tax exemption  1,339,802  (75.6 %)
+  │      The sale price is too high                       255,573  (14.4 %)
+  │      Sale price/value requirement is met              145,877  (8.2 %)
+  │      The sale price is not available                   28,773  (1.6 %)
+  │      The vehicle value is too high                      2,592  (0.1 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Electric Vehicle Fee Paid
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 3
+  │  Most Frequent      : 'Yes'  (799,610×  45.1 %)
+  │  Length min/max/avg : 2 / 14 / 5.5
+  │  Sample Values      : ['Yes', 'Yes', 'Yes', 'Not Applicable', 'Yes']
+  │  All Unique Values  (3 total):
+  │      Yes                                              799,610  (45.1 %)
+  │      No                                               515,739  (29.1 %)
+  │      Not Applicable                                   457,268  (25.8 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Transportation Electrification Fee Paid
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 91,031  (5.14 %)
+  │  Non-Null Values    : 1,681,586
+  │  Unique Values      : 3
+  │  Most Frequent      : 'Yes'  (717,608×  42.7 %)
+  │  Length min/max/avg : 2 / 14 / 5.5
+  │  Sample Values      : ['Not Applicable', 'Yes', 'No', 'Yes', 'Yes']
+  │  All Unique Values  (3 total):
+  │      Yes                                              717,608  (42.7 %)
+  │      No                                               535,483  (31.8 %)
+  │      Not Applicable                                   428,495  (25.5 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Hybrid Vehicle Electrification Fee Paid
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 91,031  (5.14 %)
+  │  Non-Null Values    : 1,681,586
+  │  Unique Values      : 3
+  │  Most Frequent      : 'No'  (1,156,190×  68.8 %)
+  │  Length min/max/avg : 2 / 14 / 5.1
+  │  Sample Values      : ['Not Applicable', 'No', 'No', 'No', 'No']
+  │  All Unique Values  (3 total):
+  │      No                                              1,156,190  (68.8 %)
+  │      Not Applicable                                   428,495  (25.5 %)
+  │      Yes                                               96,901  (5.8 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : 2020 GEOID
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : float64
+  │  Missing Values     : 139  (0.01 %)
+  │  Non-Null Values    : 1,772,478
+  │  Unique Values      : 4,433
+  │  Most Frequent      : '53033028200.0'  (10,622×  0.6 %)
+  │  (Numeric column — full stats in Section 4)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Legislative District
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : float64
+  │  Missing Values     : 7,275  (0.41 %)
+  │  Non-Null Values    : 1,765,342
+  │  Unique Values      : 49
+  │  Most Frequent      : '41.0'  (114,550×  6.5 %)
+  │  All Unique Values  (49 total):
+  │      41.0                                             114,550  (6.5 %)
+  │      45.0                                             107,034  (6.1 %)
+  │      48.0                                             101,567  (5.8 %)
+  │      1.0                                               75,505  (4.3 %)
+  │      5.0                                               74,452  (4.2 %)
+  │      36.0                                              74,424  (4.2 %)
+  │      46.0                                              69,858  (4.0 %)
+  │      43.0                                              62,820  (3.6 %)
+  │      11.0                                              58,493  (3.3 %)
+  │      34.0                                              52,496  (3.0 %)
+  │      37.0                                              52,231  (3.0 %)
+  │      44.0                                              45,836  (2.6 %)
+  │      18.0                                              45,593  (2.6 %)
+  │      21.0                                              44,473  (2.5 %)
+  │      32.0                                              44,343  (2.5 %)
+  │      23.0                                              39,565  (2.2 %)
+  │      22.0                                              37,925  (2.1 %)
+  │      40.0                                              37,854  (2.1 %)
+  │      26.0                                              35,430  (2.0 %)
+  │      47.0                                              32,932  (1.9 %)
+  │      33.0                                              32,496  (1.8 %)
+  │      31.0                                              31,746  (1.8 %)
+  │      10.0                                              31,057  (1.8 %)
+  │      17.0                                              29,985  (1.7 %)
+  │      27.0                                              25,760  (1.5 %)
+  │      39.0                                              25,614  (1.5 %)
+  │      35.0                                              25,483  (1.4 %)
+  │      42.0                                              25,481  (1.4 %)
+  │      49.0                                              25,456  (1.4 %)
+  │      24.0                                              24,351  (1.4 %)
+  │      28.0                                              23,499  (1.3 %)
+  │      30.0                                              22,277  (1.3 %)
+  │      2.0                                               21,302  (1.2 %)
+  │      25.0                                              20,368  (1.2 %)
+  │      8.0                                               19,652  (1.1 %)
+  │      38.0                                              19,595  (1.1 %)
+  │      6.0                                               16,877  (1.0 %)
+  │      12.0                                              16,084  (0.9 %)
+  │      20.0                                              16,058  (0.9 %)
+  │      4.0                                               14,623  (0.8 %)
+  │      29.0                                              13,208  (0.7 %)
+  │      13.0                                              12,029  (0.7 %)
+  │      14.0                                              11,475  (0.7 %)
+  │      19.0                                              10,544  (0.6 %)
+  │      9.0                                               10,531  (0.6 %)
+  │      16.0                                               9,646  (0.5 %)
+  │      3.0                                                9,210  (0.5 %)
+  │      7.0                                                8,716  (0.5 %)
+  │      15.0                                               4,838  (0.3 %)
+  └────────────────────────────────────────────────────────────────────────────
+
+  ┌────────────────────────────────────────────────────────────────────────────
+  │  COLUMN : Electric Utility
+  ├────────────────────────────────────────────────────────────────────────────
+  │  Data Type          : object
+  │  Missing Values     : 0  (0.00 %)
+  │  Non-Null Values    : 1,772,617
+  │  Unique Values      : 78
+  │  Most Frequent      : 'PUGET SOUND ENERGY INC||CITY OF TACOMA - (WA)'  (644,714×  36.4 %)
+  │  Length min/max/avg : 10 / 112 / 44.5
+  │  Sample Values      : ['BONNEVILLE POWER ADMINISTRATION||PUD 1 OF SNOHOMISH COUNTY', 'MODERN ELECTRIC WATER COMPANY', 'PUGET SOUND ENERGY INC', 'PUGET SOUND ENERGY INC', 'BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PENINSULA LIGHT COMPANY']
+  │  Top 20 of 78 unique values:
+  │      PUGET SOUND ENERGY INC||CITY OF TACOMA - (WA)    644,714  (36.4 %)
+  │      PUGET SOUND ENERGY INC                           355,084  (20.0 %)
+  │      CITY OF SEATTLE - (WA)|CITY OF TACOMA - (WA)     313,483  (17.7 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF CLARK COUNTY - (WA)   101,327  (5.7 %)
+  │      BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PENINSULA LIGHT COMPANY    81,226  (4.6 %)
+  │      PUGET SOUND ENERGY INC||PUD NO 1 OF WHATCOM COUNTY    41,379  (2.3 %)
+  │      BONNEVILLE POWER ADMINISTRATION||AVISTA CORP||INLAND POWER & LIGHT COMPANY    28,107  (1.6 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUD 1 OF SNOHOMISH COUNTY    15,674  (0.9 %)
+  │      PACIFICORP                                        13,839  (0.8 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF BENTON COUNTY    13,575  (0.8 %)
+  │      MODERN ELECTRIC WATER COMPANY                     11,671  (0.7 %)
+  │      PUD NO 1 OF CHELAN COUNTY                         10,234  (0.6 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUGET SOUND ENERGY INC||PUD NO 1 OF JEFFERSON COUNTY     9,639  (0.5 %)
+  │      BONNEVILLE POWER ADMINISTRATION||CITY OF RICHLAND - (WA)     9,598  (0.5 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF COWLITZ COUNTY     9,019  (0.5 %)
+  │      BONNEVILLE POWER ADMINISTRATION||ORCAS POWER & LIGHT COOP     8,949  (0.5 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF CLALLAM COUNTY     8,437  (0.5 %)
+  │      BONNEVILLE POWER ADMINISTRATION||CITY OF TACOMA - (WA)||PUD NO 3 OF MASON COUNTY     7,395  (0.4 %)
+  │      NON WASHINGTON STATE ELECTRIC UTILITY              7,271  (0.4 %)
+  │      BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF FRANKLIN COUNTY     6,248  (0.4 %)
+  │  → Full list (78 rows) saved → unique_values\Electric_Utility_unique.csv
+  └────────────────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════
+  4 ·  NUMERIC COLUMN ANALYSIS
+════════════════════════════════════════════════════════════════════════════════
+
+  Column : Sale Price
+  -------------------------------------------------------
+  No valid numeric values found.
+
+  Column : Electric Range
+  -------------------------------------------------------
+  Valid count          : 1,772,594
+  Non-numeric / NaN    : 0
+  Min                  : 0.0000
+  Max                  : 337.0000
+  Mean                 : 64.0032
+  Median               : 19.0000
+  Std Dev              : 90.6819
+  Variance             : 8,223.2126
+  Q1  (25 %)           : 0.0000
+  Q3  (75 %)           : 84.0000
+  IQR                  : 84.0000
+  Outliers (IQR rule)  : 252,653
+  Negative values      : 0
+  Zero values          : 802,631
+
+  Column : Model Year
+  -------------------------------------------------------
+  Valid count          : 1,772,617
+  Non-numeric / NaN    : 0
+  Min                  : 1,993.0000
+  Max                  : 2,027.0000
+  Mean                 : 2,020.1461
+  Median               : 2,021.0000
+  Std Dev              : 3.8226
+  Variance             : 14.6121
+  Q1  (25 %)           : 2,017.0000
+  Q3  (75 %)           : 2,023.0000
+  IQR                  : 6.0000
+  Outliers (IQR rule)  : 348
+  Negative values      : 0
+  Zero values          : 0
+
+  Column : Odometer Reading
+  -------------------------------------------------------
+  Valid count          : 1,603,763
+  Non-numeric / NaN    : 168,854
+  Min                  : 0.0000
+  Max                  : 999.0000
+  Mean                 : 9.3526
+  Median               : 0.0000
+  Std Dev              : 45.7694
+  Variance             : 2,094.8417
+  Q1  (25 %)           : 0.0000
+  Q3  (75 %)           : 0.0000
+  IQR                  : 0.0000
+  Outliers (IQR rule)  : 326,163
+  Negative values      : 0
+  Zero values          : 1,277,600
+
+════════════════════════════════════════════════════════════════════════════════
+  5 ·  DATE COLUMN ANALYSIS
+════════════════════════════════════════════════════════════════════════════════
+
+  Column : Sale Date
+  -------------------------------------------------------
+  Valid dates          : 478,942
+  Invalid / unparsed   : 0
+  Earliest             : 2008-08-07
+  Latest               : 2026-05-30
+  Years present        : [np.int32(2008), np.int32(2010), np.int32(2011), np.int32(2012), np.int32(2013), np.int32(2014), np.int32(2015), np.int32(2016), np.int32(2017), np.int32(2018), np.int32(2019), np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024), np.int32(2025), np.int32(2026)]
+  Months present       : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  Year distribution:
+      2008          2  █
+      2010         48  █
+      2011      2,367  █
+      2012      3,854  █
+      2013      9,291  ████
+      2014     10,152  ████
+      2015     11,582  █████
+      2016     15,538  ███████
+      2017     12,620  █████
+      2018     20,358  █████████
+      2019     20,905  █████████
+      2020     19,638  █████████
+      2021     32,013  ██████████████
+      2022     45,267  ████████████████████
+      2023     74,567  ██████████████████████████████████
+      2024     86,421  ████████████████████████████████████████
+      2025     86,274  ███████████████████████████████████████
+      2026     28,045  ████████████
+
+  Column : Transaction Date
+  -------------------------------------------------------
+  Valid dates          : 1,772,617
+  Invalid / unparsed   : 0
+  Earliest             : 2010-01-06
+  Latest               : 2026-05-30
+  Years present        : [np.int32(2010), np.int32(2011), np.int32(2012), np.int32(2013), np.int32(2014), np.int32(2015), np.int32(2016), np.int32(2017), np.int32(2018), np.int32(2019), np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024), np.int32(2025), np.int32(2026)]
+  Months present       : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  Year distribution:
+      2010        110  █
+      2011      2,488  █
+      2012      4,953  █
+      2013     12,842  █
+      2014     17,821  █
+      2015     23,283  ██
+      2016     31,286  ███
+      2017     43,186  ████
+      2018     62,091  ██████
+      2019     77,359  ████████
+      2020     88,654  █████████
+      2021    122,828  ████████████
+      2022    165,541  █████████████████
+      2023    249,199  ██████████████████████████
+      2024    326,823  ██████████████████████████████████
+      2025    381,018  ████████████████████████████████████████
+      2026    163,135  █████████████████
+
+════════════════════════════════════════════════════════════════════════════════
+  6 ·  TEXT QUALITY CHECKS
+════════════════════════════════════════════════════════════════════════════════
+  (checks leading/trailing spaces, blank strings, case issues)
+
+  Column : Clean Alternative Fuel Vehicle Type
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : VIN (1-10)
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 1,772,617
+    all lower rows    : 0
+    Mixed case rows   : 0
+
+  Column : Make
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 1,772,617
+    all lower rows    : 0
+    Mixed case rows   : 0
+
+  Column : Model
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 210,145
+    all lower rows    : 55,916
+    Mixed case rows   : 1,497,455
+
+  Column : Primary Use
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : Odometer Reading Description
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : New or Used Vehicle
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : Sale Date
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 478,942
+
+  Column : Transaction Type
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : Transaction Date
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : County
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,478
+
+  Column : City
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 1,772,617
+    all lower rows    : 0
+    Mixed case rows   : 0
+
+  Column : State
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 1,772,616
+    all lower rows    : 0
+    Mixed case rows   : 0
+
+  Column : 2019 HB 2042: Clean Alternative Fuel Vehicle (CAFV) Eligibility
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : 2019 HB 2042: Battery Range Requirement
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : 2019 HB 2042: Purchase Date Requirement
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : 2019 HB 2042: Sale Price/Value Requirement
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : Electric Vehicle Fee Paid
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,772,617
+
+  Column : Transportation Electrification Fee Paid
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,681,586
+
+  Column : Hybrid Vehicle Electrification Fee Paid
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 0
+    all lower rows    : 0
+    Mixed case rows   : 1,681,586
+
+  Column : Electric Utility
+    Leading spaces    : 0
+    Trailing spaces   : 0
+    Blank strings     : 0
+    ALL UPPER rows    : 1,772,617
+    all lower rows    : 0
+    Mixed case rows   : 0
+
+
+════════════════════════════════════════════════════════════════════════════════
+  7 ·  DATA QUALITY REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+  ⚠   Duplicate VINs (1-10)                                  1,754,040
+  ✅  Impossible Model Years (<1900 or >2030)                        0
+  ✅  Negative Sale Prices                                           0
+  ⚠   Invalid Postal Codes (not exactly 5 digits)            1,772,617
+  ✅  Missing City                                                   0
+  ⚠   Missing State                                                  1
+  ✅  Negative Electric Range                                        0
+  ⚠   Zero Electric Range                                      802,631
+  ✅  Extreme Electric Range (>1000)                                 0
+
+  Blank string values (empty but NOT NaN) by column:
+    ⚠   Sale Date                                                 1,293,675
+    ⚠   County                                                          139
+    ⚠   State                                                             1
+    ⚠   Transportation Electrification Fee Paid                      91,031
+    ⚠   Hybrid Vehicle Electrification Fee Paid                      91,031
+
+════════════════════════════════════════════════════════════════════════════════
+  8 ·  MEMORY USAGE BY COLUMN
+════════════════════════════════════════════════════════════════════════════════
+  Column                                                    Size (KB)
+  --------------------------------------------------------------------
+  2019 HB 2042: Purchase Date Requirement                    191891.2
+  2019 HB 2042: Sale Price/Value Requirement                 188286.3
+  Electric Utility                                           175635.2
+  Odometer Reading Description                               169657.8
+  2019 HB 2042: Clean Alternative Fuel Vehicle (CAFV) Eligibility    167050.0
+  Clean Alternative Fuel Vehicle Type                        153788.9
+  2019 HB 2042: Battery Range Requirement                    152511.9
+  Transaction Type                                           131982.9
+  Transaction Date                                           124857.2
+  VIN (1-10)                                                 115981.8
+  Primary Use                                                114354.3
+  City                                                       112908.5
+  Model                                                      109720.4
+  Make                                                       108370.3
+  Electric Vehicle Fee Paid                                  108272.7
+  County                                                     108165.9
+  Transportation Electrification Fee Paid                    105455.2
+  New or Used Vehicle                                        105306.8
+  Hybrid Vehicle Electrification Fee Paid                    104849.0
+  Sale Price                                                 104101.7
+  State                                                      102133.2
+  Odometer Reading                                           101517.7
+  Sale Date                                                   74182.9
+  Model Year                                                  13848.6
+  Electric Range                                              13848.6
+  Year                                                        13848.6
+  DOL Vehicle ID                                              13848.6
+  2020 GEOID                                                  13848.6
+  Postal Code                                                 13848.6
+  Legislative District                                        13848.6
+  Meets 2019 HB 2042 Sale Price/Value Requirement              1731.1
+  Meets 2019 HB 2042 Electric Range Requirement                1731.1
+  Meets 2019 HB 2042 Sale Date Requirement                     1731.1
+
+  TOTAL IN-MEMORY:  2962.03 MB
+
+════════════════════════════════════════════════════════════════════════════════
+  9 ·  CLEANING RECOMMENDATIONS
+════════════════════════════════════════════════════════════════════════════════
+
+  • 62 duplicate rows detected.
+  → df.drop_duplicates(inplace=True)
+
+  • Missing values in 9 column(s): 'Electric Range', 'Sale Date', 'County', 'State' …
+  → Use df[col].fillna(value) or df.dropna(subset=[col])
+
+  • Invalid postal codes (non-5-digit) found.
+  → df['Postal Code'] = df['Postal Code'].astype(str).str.zfill(5)
+
+  • Duplicate VIN (1-10) values found — check if intentional.
+  → df.drop_duplicates(subset=['VIN (1-10)'], inplace=True)
+
+════════════════════════════════════════════════════════════════════════════════
+  ✅  ANALYSIS COMPLETE  |  Total time : 204.7 s
+  📄  Report saved to   : EV_Analysis_Report.txt
+  📁  Unique value CSVs : unique_values\
+════════════════════════════════════════════════════════════════════════════════
